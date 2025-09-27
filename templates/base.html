@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>
+    {{ config.title }}
+  </title>
+
+  <link rel="icon" type="image/x-icon" href="/img/favico.ico">
+
+  <meta name="description" content="{{ config.description }}">
+  
+  <link rel="alternate" href="/rss.xml" type="application/rss+xml">
+
+  <link rel="stylesheet" href="/style.css">
+
+  <link rel="me" href="https://mastodon.social/@wordius">
+
+</head>
+
+<body>
+
+  <header>
+      <a class="banner" href="/" class="home-link">{{ config.title }}<span class="banner-item">.</span></a>
+
+      <nav class="nav" role="navigation">
+        <ul role="list">
+          <li class="nav-item box"><a href="/">Home</a></li>
+          <li class="nav-item box"><a href="/notes">Blog</a></li>
+          <li class="nav-item box"><a href="/about">About</a></li>
+          <li class="nav-item box"><a href="/contact">Contact</a></li>
+          <li class="nav-item box"><a href="/markdown-handbook">Markdown Handbook</a></li>
+        </ul>
+      </nav>
+  </header>
+
+  <main>
+    {% block breadcrumb %}
+    {% endblock breadcrumb %}
+
+    {% block content %}
+    {% endblock %}
+  </main>
+
+	{% include "partials/footer.html" %}
+
+</body>
+
+</html>
