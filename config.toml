@@ -40,5 +40,5 @@ highlight_code = true
 highlight_theme = "base16-ocean-light"
 
 [extra]
-# Put all your custom variables here
+# Put custom variables here
 
