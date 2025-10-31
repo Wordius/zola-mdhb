@@ -1,9 +1,6 @@
 {% extends "base.html" %}
 
-{% block content %}
-    <section class="homepage-text">
-        <p>I have worked in publishing since 1985, living my dream as a journalist, editor, a publication designer and a web designer. Freelance since 2002, I have collaborated with clients ranging from Bauer Media and Haymarket to Euromoney, Bennetts Insurance, and yes, even Tony the electrician.</p>
-        <p>During this time, I have worked on many titles, but <em>Bike</em> magazine was the highlight, offering travel, adventure, and the occasional crash. I’m currently the editor of <em>DogFriendly</em> magazine, creator of various websites, a gardener, and Markdown enthusiast.</p>        
-        <p>For more, see my <a href="/about">about</a> page and for updates read the <a href="/notes">blog</a>.</p>
-    </section>
-{% endblock content %}
+  {% block content %}
+    <h2>Some heading</h2>
+    {{ section.content |safe }}
+  {% endblock content%}

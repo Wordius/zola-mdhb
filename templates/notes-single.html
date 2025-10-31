@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block content %}
+<hr>
+<article>
+  <section class="post-header">
+  <small class="page-date">{{ page.date | date(format="%d %B %Y") }}</small>
+  <h1 class="post-title">{{ page.title }}</h1>
+  {% if page.description %}
+    <h2 class="page-description">{{ page.description }}</h2>
+  {% endif %}
+  </section>
+
+  <section class="content">
+    {{ page.content | safe }}
+  </section>
+
+<section class="post-meta">
+    <p class="post-tags">   
+    {% if page.taxonomies.tags %}
+    Tagged:
+    {% for tag in page.taxonomies.tags %}
+    <a class="post-tag" href='{{ get_taxonomy_url(kind="tags", name=tag) | safe }}'>{{ tag }}</a>
+    <span aria-hidden="true">
+    {%- if not loop.last %}
+      {{ "//" | safe }}
+    {% endif -%}
+    </span>
+    {% endfor %}
+    {% endif %}
+  </p>
+  <meta name="fediverse:creator" content="@wordius@mastodon.social">
+</section>
+</article>
+
+ {% if page.lower or page.higher %}
+  <div class="post-nav">
+    {% if page.lower %}
+      <p><span class="post-nav-dir"><strong>Newer: </strong></span><a class="previous" href="{{ page.lower.permalink }}">‹ {{ page.lower.title }}</a></p>
+    {% endif %}
+    {% if page.higher %}
+      <p><span class="post-nav-dir"><strong>Older: </strong></span><a class="next" href="{{ page.higher.permalink }}">{{ page.higher.title }} ›</a></p>
+    {% endif %}
+  </div>
+{% endif %}
+
+{% endblock content %}
+

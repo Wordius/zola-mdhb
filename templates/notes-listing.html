@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block content %}
+<section class="blog">
+  <section class="postlist-header">
+    <h1 class="section-title">{{ section.title }}</h1>
+  </section>
+
+  <!-- PAGINATOR -->
+  {% if paginator %}
+      {% for post in paginator.pages %}
+      <section class="postlist-item">
+        <time class="postlist-date">{{ post.date | date(format="%d %B %Y") }}</time>
+        <h2 class="postlist-title"><a href="{{ post.permalink }}">{{ post.title }}</a></h2>
+        <!--<p class="postlist-description">{{ post.description }}</p>-->
+      </section>
+      {% endfor %}
+      {% endif %}
+
+  <section class="postlist-nav">
+  {% if paginator.previous %}
+    <a href="{{ paginator.previous }}">&lt;</a>
+  {% else %}
+    &lt;
+  {% endif %}
+  <span>{{ paginator.current_index }}</span>
+  {% if paginator.next %}
+    <a href="{{ paginator.next }}">&gt;</a>
+  {% else %}
+    &gt;
+  {% endif %}
+  </section>
+  <!-- END PAGINATOR -->
+</section>
+
+{% endblock content %}
+

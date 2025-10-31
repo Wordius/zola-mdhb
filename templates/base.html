@@ -10,7 +10,7 @@
     {{ config.title }}
   </title>
 
-  <link rel="icon" type="image/x-icon" href="/img/favico.ico">
+  <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
 
   <meta name="description" content="{{ config.description }}">
   
@@ -25,28 +25,73 @@
 <body>
 
   <header>
-      <a class="banner" href="/" class="home-link">{{ config.title }}<span class="banner-item">.</span></a>
+    <div class="masthead_outer">
+        <div class="masthead">
+            <a class="banner" href="/" class="home-link">The<br>Markdown<br>Manual</a>
+        </div>
+            <!--<div class="item">
+            {% if config.build_search_index -%}
+                <div id="on_right">
+                    <span id="search-ico" class="ms-Icon--Search"></span>
+                </div>
+                <div class="search-container">
+                    <input id="search" type="search" placeholder="Search as you type...">
+                    <div class="search-results">
+                        <div class="search-results__header"></div>
+                        <ul class="search-results__items"></ul>
+                    </div>
+                </div>
+            {% endif -%}
+            </div>-->
 
-      <nav class="nav" role="navigation">
-        <ul role="list">
-          <li class="nav-item box"><a href="/">Home</a></li>
-          <li class="nav-item box"><a href="/notes">Blog</a></li>
-          <li class="nav-item box"><a href="/about">About</a></li>
-          <li class="nav-item box"><a href="/contact">Contact</a></li>
-          <li class="nav-item box"><a href="/markdown-handbook">Markdown Handbook</a></li>
+    </div>
+    </header>
+<section class="wrapper">
+
+        <nav aria-label="Main Navigation" role="navigation">
+            <input id="menu-toggle" type="checkbox" />
+            <label class="hamburger" for="menu-toggle">&#9776;</label>
+            <ul class="menu">
+                <li class="dropdown">
+                    <a href="#">Getting started &#8595;</a>
+                    <ul class="submenu">
+                        <li><a href="/getting-started/start-here">Start here</a></li>
+                        <li><a href="/getting-started/use-cases">Use cases</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Rules & syntaxes &#8595;</a>
+                    <ul class="submenu">
+                        <li><a href="/rules-or-syntaxes/the-basics">Cheat sheet</a></li>
+                        <li><a href="/rules-or-syntaxes/extended-syntax">Extended syntax</a></li>
+                    </ul>
+                </li>
+          <li><a href="/flavours">Flavours</a></li>
+          <li><a href="/editors">Editors</a></li>
+          <li><a href="/blog">Blog</a></li>
         </ul>
       </nav>
   </header>
 
-  <main>
-    {% block breadcrumb %}
-    {% endblock breadcrumb %}
+        <section class="container">
+        <main>
+            {% block content %}
+            {% endblock %}
+        </main>
+        </section><!-- container -->
 
-    {% block content %}
-    {% endblock %}
-  </main>
+        <section class="message">
+            <div class="flex_item">
+                <img src="" />
+            </div>
+            <div class="flex_item words">
+                <h3>Download the<br>cheat sheet</h3>
+                <p>Some wording here. You can include a maximum of 30 words in your message to our readers. 90 characters</p>
+            </div>
+        </section>
+</section><!-- wrapper -->
 
-	{% include "partials/footer.html" %}
+{% include "partials/footer.html" %}
 
 </body>
 
