@@ -63,4 +63,4 @@ Many collaboration tools support basic markdown formatting for text emphasis and
 
 ## Flavours of markdown
 
-Different tools implement markdown slightly differently. These variations are known as flavours. Take a look at your editor’s documentation to understand its specific markdown usage and compatibility, and see the [flavours](/flavours) page for more information.
+Different tools implement markdown slightly differently. These variations are known as flavours. Take a look at your editor’s documentation to understand its specific markdown usage and compatibility, and see the [flavours](/getting-started/flavours) page for more information.

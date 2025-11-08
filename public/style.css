@@ -35,7 +35,7 @@
     font-size: var(--font-size);
     line-height: var(--leading);
     color-scheme: light;
-    accent-color: crimson;
+    --accent-color:#5B7C99; /*slate blue*/
 	  color:#333;
 }
 
@@ -97,6 +97,20 @@ hr.rule {
  margin-top: 3rem;
 }
 
+.md-logo {
+  margin: 0 auto;
+  padding-bottom: 3rem;
+}
+.homepage {
+  font-family: var(--font-family-serif);
+  font-size: var(--pt-paragon);
+  text-align: center;
+  padding-bottom: 3rem;
+}
+mark {
+  background-color: #FFCC00;
+}
+
 /* HEADER */
 
 header a.banner {
@@ -109,7 +123,7 @@ header a.banner {
 	color:#333;
 }
 header a.banner:hover {
-	color: brown;	
+	color: var(--accent-color);	
 }
 .masthead {
 	padding-top: 1rem;
@@ -134,23 +148,31 @@ nav {
 }
 .menu li {
   position: relative;
-  margin-left: 1rem;
+  padding: 1rem 0 0 1rem;
+  /*margin-left: 1rem;*/
 }
 .menu li:first-of-type {
   margin-left: 0;
   padding-left: 0;
 }
+.menu li:last-of-type {
+  padding-bottom: 1rem;
+}
 .menu a {
   display: block;
-  padding: 10px;
+  /*padding: 10px;*/
   padding-left: 0;
   transition: background 0.3s, color 0.3s;
-  color: #333;
+  color: var(--accent-color);
   text-decoration: none;
   white-space: nowrap;
 }
 .menu li:hover > a {
-  color: #2971f6;
+  text-decoration-line: underline;
+  text-decoration-thickness: 3px;
+  text-decoration-style: solid;
+  text-underline-offset: .5rem;
+  text-decoration-color: var(--accent-color);
 }
 /*.menu li:hover > a::after {
   content: " &rarr;";
@@ -162,9 +184,10 @@ nav {
   position: absolute;
   left: 0;
   right: 0;
-  /*min-width: 160px;*/
+  min-width: 200px;
   background-color: var(--background-color);
   border: 1px solid #ccc;
+  margin-left: 0;
   padding-right: 1rem;
   list-style: none;
   z-index: 1;
@@ -174,6 +197,9 @@ nav {
 }
 .submenu li:first-of-type {
   padding-left: 1rem;
+}
+.submenu-left {
+  margin-left: 1rem;
 }
 .submenu li a:hover {
   width: 100%;
@@ -285,14 +311,25 @@ nav {
 article, .blog {
 	max-width: var(--line-length);
 }
-article, .section-title {
+article {
   padding-bottom: 3rem;
 }
 article p, article ol, article ul {
 	padding-bottom: 1rem;
 }
+article p:last-of-type {
+  padding-bottom: 0;
+}
 article ul, article ol {
-  margin-left: 40px;
+  margin-left: 1rem;
+}
+.page-title, .section-title {
+  font-family: var(--font-family-sans);
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+.section-title + p {
+  padding-bottom: 3rem;
 }  
 article h2 {
 	font-weight: 400;
@@ -319,11 +356,12 @@ article h4 {
   padding-bottom: 1rem;
 }
 article a {
-  text-decoration: underline;
-  text-underline-offset: 0.2rem;
+  color: var(--accent-color);
+  text-decoration: none;
 }
 article a:hover {
-  color: crimson;
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
 }
 .post-title {
   padding-top: 1.5rem;
@@ -340,16 +378,20 @@ article a:hover {
 .postlist-title {
   padding-top: 1.5rem;
   padding-bottom: 1rem;
-  border-bottom: 1px solid #ccc;
 }
   .postlist-title a {
     text-decoration: none;
+    color: var(--accent-color);
   }
   .postlist-title a:hover {
-    color: crimson;
+    text-decoration: underline;
+    text-underline-offset: 0.2rem;
   }
 .post-nav {
-  padding-bottom: 1rem
+  padding-bottom: 3rem
+}
+.post-meta {
+  padding-top: 1rem;
 }
 
 /* TABLE */
@@ -409,10 +451,42 @@ code {
 .footnote-definition sup + p {
   display: inline;
 }
+
+/* FLEXSPACE */
+
+.flex-space {
+  display: flex;
+  flex-direction: row;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  border-top: 1px solid #ccc;
+}
+.flex-space h2 {
+  padding-bottom: 1rem;
+}
+.flexible {
+  padding: 1rem;
+  border: 1px solid #ccc;
+  &:last-of-type {
+    margin-left: 1rem;
+  }
+}
+.flexible h2 a {
+  color: var(--accent-color);
+  text-decoration: none;
+  &:hover {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 3px;
+    text-underline-offset: .5rem;
+  }
+}
+
 /* ADVERTISING */
 
 .message {
-  display: flex;
+  display: none;
+  /*display: flex;*/
   flex-direction: row;
   gap: 1rem;
   justify-content: center;
@@ -446,9 +520,11 @@ footer p {
 	margin-bottom: 0.5rem;
 }
 footer a {
+  color: var(--accent-color);
 	text-decoration: none;
 	&:hover {
 		text-decoration: underline;
+    text-underline-offset: 0.2rem;
 	}
 }
 footer ul {
@@ -483,6 +559,7 @@ figure {
 figcaption {
 	font-family: var(--font-family-sans);
 	font-size: var(--pt-long-primer);
+  padding-top: 0.3rem;
 }
 .page-image {
 	padding-bottom: 3rem;

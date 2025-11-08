@@ -4,7 +4,9 @@
 <!--<section class="postlist-header">
   <h1 class="section-title">{{ section.title }}</h1>
   <h2 class="section-description">{{ section.description }}</h2>
-</section>-->
+</section>
+
+{{ section.content | safe }}-->
 
 <!-- PAGINATOR -->
 {% if paginator %}
@@ -24,14 +26,14 @@
 <!-- CONTENT OF SECTION _index.md -->
 
 <article>
-  <h1>{{ section.title | safe }}</h1>
+  <h1 class="page-title">{{ section.title | safe }}</h1>
     {% if section.description %}
-      <h2 class="section-description">{{ section.description }}</h2>
+      <h2 class="page-description">{{ section.description }}</h2>
     {% endif %}
 
     {{ section.content | safe }}
 </article>
 
-<hr class="rule">
+<!--<hr class="rule">-->
 
 {% endblock content %}

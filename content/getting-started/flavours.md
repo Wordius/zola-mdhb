@@ -1,7 +1,7 @@
 +++
 title = "Flavours of markdown"
 description = "There are a great number of variants or ‘flavours’ of markdown out there, but rather than you picking the one you want to use, it invariably picks you"
-weight = 350
+weight = 300
 toc = "true"
 +++  
 
@@ -15,7 +15,7 @@ See [here](https://github.com/commonmark/commonmark-spec/wiki/Markdown-Flavors) 
 
 Markdown became a thing back in 2004, when John Gruber and Aaron Schwartz wrote the first specification.
 
-Put simply, markdown is a text-to-HTML conversion tool originally designed for web writers. It allows you to write in an easy-to-read, easy-to-write plain text format, then convert it to structurally valid HTML.
+Put simply, markdown is a text-to-HTML conversion tool originally designed for web writers. It allows you to write in an easy-to-read, easy-to-write plain text format, then convert it to structurally valid HTML if that is your intention.
 
 So, with that said, markdown is two things:
 
@@ -40,7 +40,7 @@ The main features of Commonmark are a detailed and standardised specification th
 
 As a result, Commonmark allows the addition of extensions to cover additional functionalities without breaking the basic specification.
 
-Commonmark is one of the specifications used in Obsidian, my current notes app.
+Commonmark is one of the specifications used in Obsidian.
 
 ## GitHub-flavoured markdown, or GFM
 

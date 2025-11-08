@@ -1,8 +1,8 @@
 +++
-title = "Tools of the trade: writing, editing & note-taking apps"
+title = "Writing, editing & note-taking apps"
 description = "The table below provides a list of markdown editors I have come across. The list is not static – it will grow…"
-weight = 400
-toc = "true"
+weight = 100
+slug = "markdown-editors"
 +++
 
 No surprise, this list leans heavily towards Mac/iOS. Among these apps are some that work on other platforms, such as Windows and Linux.
@@ -20,6 +20,7 @@ My favourite markdown app at the moment is Obsidian. The app is served up as no-
 | [FSNotes](https://fsnot.es)                                                                                 | Mac, iOS                                                  | £8.99, £4.99     | Yes                 | No         | No          |
 | [IA Writer](https://ia.net/writer)                                                                          | Mac, iOS                                                  | £41.99, £22.99   | Yes                 | No         | Yes         |
 | [Logseq](https://logseq.com)                                                                                | Mac                                                       | Free             | No                  | Yes        | No          |
+| [MarkEdit](https://github.com/MarkEdit-app/MarkEdit)                                                        | Mac                                                       | Free             | Yes                 | No         | No          |
 | [MarkText](https://github.com/marktext/marktext)                                                            | Mac                                                       | Free             | No                  | Yes        | No          |
 | [Mindbox](https://github.com/mind-box/)                                                                     | Mac                                                       | Free             | No                  | Yes        | No          |
 | [Multimarkdown Composer](https://multimarkdown.com/composer/)                                               | Mac                                                       | Yes              | iCloud              | No         | No          |
