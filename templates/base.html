@@ -14,10 +14,11 @@
 
   <meta name="description" content="{{ config.description }}">
   
-  {% block rss %}
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ get_url(path="rss.xml", trailing_slash=false) }}">
+  <link rel="alternate" type="application/rss+xml" title="RSS" href="/feeds/rss.xml">
+
+  <!--{% block rss %}    
     <link rel="alternate" type="application/atom+xml" title="RSS" href="{{ get_url(path="atom.xml", trailing_slash=false) }}">
-  {% endblock %}
+  {% endblock %}-->
 
   <link rel="stylesheet" href="/style.css">
 

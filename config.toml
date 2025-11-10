@@ -18,6 +18,10 @@ taxonomies = [
     { name = "tags", paginate_by = 10, feed = true },
 ]
 
+# FEEDS
+
+feed_filenames = ["rss.xml"]
+
 # SEARCH INDEX
 
 build_search_index = true
