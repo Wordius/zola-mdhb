@@ -20,6 +20,7 @@ taxonomies = [
 
 # FEEDS
 
+generate_feeds = true
 feed_filenames = ["rss.xml"]
 
 # SEARCH INDEX
