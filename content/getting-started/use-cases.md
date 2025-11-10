@@ -30,7 +30,7 @@ It is also widely used for technical documentation, with tools such as:
 
 ## Documents and notes
 
-Markdown is suited to writing basic documents such as letters, essays and reports. It can be used on any platform, where you can export markdown to **PDF** or HTML using applications such as:
+Markdown is suited to writing basic documents such as letters, essays and reports. It can be used on any platform, where you can export markdown to PDF or HTML using applications such as:
 
 * Mac: [Obsidian](https://obsidian.md), [Bear](https://bear.app)
 * Windows: [Markdown Monster](https://markdownmonster.west-wind.com), [ghostwriter](https://ghostwriter.kde.org)

@@ -19,13 +19,13 @@
 
   <section class="postlist-nav">
   {% if paginator.previous %}
-    <a href="{{ paginator.previous }}">&lt;</a>
+    <a href="{{ paginator.previous }}">&lt; Previous</a>
   {% else %}
     &lt;
   {% endif %}
   <span>{{ paginator.current_index }}</span>
   {% if paginator.next %}
-    <a href="{{ paginator.next }}">&gt;</a>
+    <a href="{{ paginator.next }}">Next &gt;</a>
   {% else %}
     &gt;
   {% endif %}

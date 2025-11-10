@@ -4,6 +4,8 @@ description = "The Markdown Handbook is your reference to everything markdown."
 
 base_url = "https://md-handbook.com"
 
+author = "The Markdown Handbook"
+
 default_language = "en"
 
 # SASS

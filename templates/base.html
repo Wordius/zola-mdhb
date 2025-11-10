@@ -14,11 +14,14 @@
 
   <meta name="description" content="{{ config.description }}">
   
-  <link rel="alternate" href="/rss.xml" type="application/rss+xml">
+  {% block rss %}
+    <link rel="alternate" type="application/rss+xml" title="RSS" href="{{ get_url(path="rss.xml", trailing_slash=false) }}">
+    <link rel="alternate" type="application/atom+xml" title="RSS" href="{{ get_url(path="atom.xml", trailing_slash=false) }}">
+  {% endblock %}
 
   <link rel="stylesheet" href="/style.css">
 
-  <link rel="me" href="https://mastodon.social/@wordius">
+  <link rel="me" href="https://mastodon.social/@mdhb">
 
 </head>
 
@@ -71,7 +74,7 @@
                     <a href="/tools">Tools &#8595;</a>
                     <ul class="submenu submenu-left">
                         <li><a href="/tools/markdown-editors">Markdown editors</a></li>
-                        <li><a href="#">Static site generators</a></li>
+                        <li><a href="/tools/static-site-generators">Static site generators</a></li>
                     </ul>
                 </li>
           <li><a href="/blog">Blog</a></li>

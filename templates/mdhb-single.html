@@ -8,11 +8,11 @@
     {% endif %}
     <!--<section><strong>{{ page.date }}</strong></section>-->
 
-  {% if page.toc %}
-        {% include "partials/toc.html" %}
-  {% endif %}
+    {% if page.toc %}
+      {% include "partials/toc.html" %}
+    {% endif %}
 
-  {{ page.content | safe }}
+    {{ page.content | safe }}
 
   </article>
 

@@ -23,7 +23,7 @@
     <a class="post-tag" href='{{ get_taxonomy_url(kind="tags", name=tag) | safe }}'>{{ tag }}</a>
     <span aria-hidden="true">
     {%- if not loop.last %}
-      {{ "//" | safe }}
+      {{ "/" | safe }}
     {% endif -%}
     </span>
     {% endfor %}
