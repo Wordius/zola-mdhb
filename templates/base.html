@@ -2,13 +2,21 @@
 <html lang="en">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QX12JN8P7Y"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-QX12JN8P7Y');
+    </script>
+
   <meta charset="UTF-8">
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>
-    {{ config.title }}
-  </title>
+  <title>{{ config.title }}</title>
 
   <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
 
@@ -24,15 +32,6 @@
 
   <link rel="me" href="https://mastodon.social/@md_handbook">
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-QX12JN8P7Y"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-QX12JN8P7Y');
-</script>
 </head>
 
 <body>
