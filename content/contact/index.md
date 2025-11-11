@@ -7,6 +7,6 @@ You can get in touch via any of the methods below, but email is the preferred op
 - [Mastodon](https://mastodon.social/@mdhb)
 - [Bluesky](https://bsky.app/profile/md-handbook.bsky.social)
 - Signal – markdown.64
-- Email me at <a href='mailto:info@md-handbook.com?subject=Markdown'>info@md-hankdbook.com</a>.
+- Email me at <a href='mailto:info@md-handbook.com?subject=Markdown'>info@md-handbook.com</a>.
 
 See my [about](/about) page for more information.
