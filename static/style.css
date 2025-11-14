@@ -86,7 +86,7 @@ em {
 blockquote {
 	padding: 1rem 0 2rem 1rem; 
 }
-blockquote p {
+blockquote p, blockquote ul, blockquote ol {
 	font-family: var(--font-italic);
 	font-size: 120%;
 }
@@ -402,7 +402,8 @@ article a:hover {
 
 .terms-tags {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1rem;
 }
 /*.terms-tags > * {
   flex: 1;
@@ -598,8 +599,5 @@ iframe {
   }
   .words {
     text-align: center;
-  }
-  .terms-tags {
-    grid-template-columns: repeat(2, 1fr);
   }
 }
