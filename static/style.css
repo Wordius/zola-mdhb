@@ -369,6 +369,7 @@ article a:hover {
 .post-title {
   padding-top: 1.5rem;
 }
+
 .postlist-item {
   list-style: none;
   padding-bottom: 3rem;
@@ -399,6 +400,9 @@ article a:hover {
 }
 .post-meta {
   padding-top: 1rem;
+}
+.post-tags {
+  padding-bottom: 0;
 }
 
 /* TERMS */
