@@ -13,7 +13,7 @@ Affine describes itself as ‘a next-gen knowledge base and open-source alternat
 [Affine](https://affine.pro/blog/affine-alpha-is-coming) says:
 
 > In order to be able to carry more complex functions in future development while **maintaining the stability of AFFiNE**, our development team decided to refactor the project and **standardise the code structure**. The new version of AFFiNE Alpha will provide a more stable experience for users and a more organised structure for developers.
-
+>
 > Secondly, the refactoring also saw a lot of changes to the design of pages. To a certain extent, a good UI design solution makes the user experience more fluid. In previous versions, users have been confused by the design of the pages. Our product and design teams have held many meetings and long conversations about these issues and have come up with a more user-focussed design for AFFiNE Alpha. The aim is to give users **a better visual effect and operating experience**.
 
 The advantages are:

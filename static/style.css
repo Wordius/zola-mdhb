@@ -84,15 +84,18 @@ em {
 	font-family: var(--font-italic);
 }
 blockquote {
-	padding: 1rem 0 2rem 1rem; 
+	padding-left: 1rem;
+  border-left: 1px solid #ccc;
 }
 blockquote p, blockquote ul, blockquote ol {
-	font-family: var(--font-italic);
-	font-size: 120%;
+	font-family: var(--font-serif);
+  color: #777;
 }
 blockquote p:last-of-type {
-	margin: 0;
+	margin-bottom: 1rem;
+  padding-bottom: 0;
 }
+
 hr.rule {
  margin-top: 3rem;
 }
@@ -317,9 +320,9 @@ article {
 article p, article ol, article ul {
 	padding-bottom: 1rem;
 }
-article p:last-of-type {
+/*article p:last-of-type {
   padding-bottom: 0;
-}
+}*/
 article ul, article ol {
   margin-left: 1rem;
 }
