@@ -34,4 +34,4 @@ My favourite markdown app at the moment is Obsidian. The app is served up as no-
 | [Visual Code Studio](https://code.visualstudio.com)                                                         | Mac                                                       | Free             | No                  | No         | Yes         |
 | [Zettlr](https://www.zettlr.com)                                                                            | Mac                                                       | Free             | Cloud               | Yes        | No          |
 
-[Email](mailto:info@md-handbook.com?subject=Markdown) me if you would like to correct any errors/mistakes or have an app you would like to add.
+<a href="mailto:info@md-handbook.com?subject=Markdown">Email</a> me if you would like to correct any errors/mistakes or have an app you would like to add.
