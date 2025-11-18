@@ -573,6 +573,8 @@ ul.social li {
 img {
 	max-inline-size: 100%;
 	height: auto;
+}
+img.with-border {
   border: 1px solid #777;
 }
 figure {
