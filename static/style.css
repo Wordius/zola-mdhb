@@ -21,7 +21,7 @@
     --leading: 1.475;
     --padding-inline: 1rem 2rem;
     --padding-block: 1rem 2rem;
-	  --font-italic: fontin, georgia, serif;
+	  --font-italic: Fontin, georgia, serif;
     --pt-double-canon: 4.666rem;
     --pt-canon: 3.999rem;
     --pt-double-great-primer: 2.999rem;
@@ -573,6 +573,7 @@ ul.social li {
 img {
 	max-inline-size: 100%;
 	height: auto;
+  border: 1px solid #777;
 }
 figure {
 	padding: 0 0 2rem 0;
