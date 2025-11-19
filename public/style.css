@@ -405,6 +405,12 @@ article a:hover {
   padding-bottom: 0;
 }
 
+/* Links */
+
+/*a["title"] {
+  font-size: 120%;
+}*/
+
 /* TERMS */
 
 .terms-tags {

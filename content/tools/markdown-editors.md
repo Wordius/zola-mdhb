@@ -2,6 +2,7 @@
 title = "Writing, editing & note-taking apps"
 description = "The table below provides a list of markdown editors I have come across. The list is not static – it will grow…"
 weight = 100
+path = "markdown-editors"
 +++
 
 No surprise, this list leans heavily towards Mac/iOS. Among these apps are some that work on other platforms, such as Windows and Linux.
