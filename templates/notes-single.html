@@ -20,7 +20,7 @@
     {% if page.taxonomies.tags %}
     Topics:
     {% for tag in page.taxonomies.tags %}
-    <a class="post-tag" href='{{ get_taxonomy_url(kind="tags", name=tag) | safe }}'>{{ tag }}</a>
+      <a class="post-tag" href='{{ get_taxonomy_url(kind="tags", name=tag) | safe }}'>{{ tag }}</a>
     <span aria-hidden="true">
     {%- if not loop.last %}
       {{ "/" | safe }}
