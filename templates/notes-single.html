@@ -18,7 +18,7 @@
 <section class="post-meta">
     <p class="post-tags">   
     {% if page.taxonomies.tags %}
-    Tagged:
+    Topics:
     {% for tag in page.taxonomies.tags %}
     <a class="post-tag" href='{{ get_taxonomy_url(kind="tags", name=tag) | safe }}'>{{ tag }}</a>
     <span aria-hidden="true">
