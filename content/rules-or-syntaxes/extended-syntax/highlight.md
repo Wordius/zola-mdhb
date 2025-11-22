@@ -2,6 +2,7 @@
 title = "Highlights in markdown"
 description = "Highlighting words in markdown draws the attention of the reader"
 weight = 800
+path = "highlight-in-markdown"
 +++
 
 Use double equals signs (`==`) around the text:

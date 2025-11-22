@@ -2,6 +2,7 @@
 title = "Tables in markdown"
 description = "Tables are useful for presenting data and providing a break for the reader from textual monotony"
 weight = 100
+path = "tables-in-markdown"
 +++
 
 Markdown allows you to create and format tables using hyphens (`-`) and pipes (`|`). This section explains how to structure tables, align text, format content and handle special characters within table cells.
@@ -26,7 +27,7 @@ An example is provided below followed by the rendered output.
 
 Note that while the cell widths may vary, the rendered output will look consistent.
 
-Manually typing hyphens and pipes can be time-consuming. To speed things up in Obsidian, use `Insert > Table` from the command palette (accessible via `Command P`). Tools like Obsidian’s [Advanced Tables](https://obsidian.md/advanced-tables) %%note%% plugin give you even more control.
+Manually typing hyphens and pipes can be time-consuming. To speed things up in Obsidian, use `Insert > Table` from the command palette (accessible via `Command P`). Tools like Obsidian’s [Advanced Tables](https://obsidian.md/advanced-tables) plugin give you even more control.
 
 ## Aligning text in tables
 

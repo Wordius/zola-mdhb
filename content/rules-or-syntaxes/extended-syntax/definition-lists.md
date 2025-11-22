@@ -2,6 +2,7 @@
 title = "Definition lists"
 description = "In HTML, definition lists are described as ‘description lists’. Both refer to pairs of terms and their definitions"
 weight = 500
+path = "definition-lists-in-markdown"
 +++
 
 Some markdown processors support definition lists – pairs of terms and their definitions.

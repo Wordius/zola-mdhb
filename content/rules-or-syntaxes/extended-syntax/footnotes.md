@@ -2,6 +2,7 @@
 title = "Footnotes in markdown"
 description = "Stop your text becoming cluttered with reference-style material by adding footnotes to your copy"
 weight = 300
+path = "footnotes-in-markdown"
 +++
 
 Footnotes allow you to add references or notes without cluttering the main text. They are numbered automatically in the rendered output.

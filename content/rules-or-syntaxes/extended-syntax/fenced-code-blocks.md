@@ -2,6 +2,7 @@
 title = "Fenced code blocks in markdown"
 description = "Having the ability to fence off code blocks is useful when you are trying to explain a programming language. You can also add a splash of colour to your syntax"
 weight = 200
+path = "fenced-code-blocks-markdown"
 +++
 
 By default, markdown creates code blocks when lines are indented by four spaces or one tab. Fenced code blocks offer an easier alternative, with no indentation required.

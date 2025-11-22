@@ -2,6 +2,7 @@
 title = "Heading IDs in markdown"
 description = "Heading IDs are useful when a section of text gets lengthy, allowing the reader to find their way"
 weight = 400
+path = "heading-ids-in-markdown"
 +++
 
 Custom IDs allow you to create linkable headings and style them with CSS.

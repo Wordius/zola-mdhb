@@ -26,7 +26,7 @@ I have written notes explaining some of these items in more detail. These are li
 <th>Syntax</th>
 </tr>
 <tr>
-<td><a href="/rules-or-syntaxes/extended-syntax/tables">Tables</a></td>
+<td><a href="/tables-in-markdown">Tables</a></td>
 <td>
 <code>
 | Feature | Description |
@@ -40,7 +40,7 @@ I have written notes explaining some of these items in more detail. These are li
 </td>
 </tr>
 <tr>
-<td><a href="/rules-or-syntaxes/extended-syntax/fenced-code-blocks">Fenced code block</a></td>
+<td><a href="/fenced-code-blocks-markdown">Fenced code block</a></td>
 <td><pre lang="json">
 ```
 {
@@ -53,17 +53,17 @@ I have written notes explaining some of these items in more detail. These are li
 </td>
 </tr>
 <tr>
-<td><a href="/rules-or-syntaxes/extended-syntax/footnotes">Footnote</a></td>
+<td><a href="/footnotes-in-markdown">Footnote</a></td>
 <td><code>Here’s a sentence with a footnote. [^1] 
 <br>
 [^1]: And the footnote.</code>
 </td>
 </tr>
 <tr>
-<td><a href="/rules-or-syntaxes/extended-syntax/heading-ids">Heading IDs</a></td><td><code>### Custom heading {#custom-id}</code></td>
+<td><a href="/heading-ids-in-markdown">Heading IDs</a></td><td><code>### Custom heading {#custom-id}</code></td>
 </tr>
 <tr>
-<td><a href="/rules-or-syntaxes/extended-syntax/definition-lists">Definition list</a></td>
+<td><a href="/definition-lists-in-markdown">Definition list</a></td>
 <td><code>term
 <br>
 : definition</code>
@@ -71,7 +71,7 @@ I have written notes explaining some of these items in more detail. These are li
 </tr>
 <tr>
 <td>
-<a href="/rules-or-syntaxes/extended-syntax/task-list">Task list</a></td>
+<a href="/task-lists-in-markdown">Task list</a></td>
 <td><code>- [x] Write to John
 <br>
 - [ ] Send an email to Heather
@@ -79,19 +79,19 @@ I have written notes explaining some of these items in more detail. These are li
 - [ ] Phone Ian</code></td>
 </tr>
 <tr>
-<td><a href="/rules-or-syntaxes/extended-syntax/strikethrough">Strikethrough</a></td>
+<td><a href="/strikethrough-in-markdown">Strikethrough</a></td>
 <td><code>~~strikethrough~~</code></td>
 </tr>
 <tr>
-<td><a href="/rules-or-syntaxes/extended-syntax/highlight">Highlight</a></td>
+<td><a href="/highlight-in-markdown">Highlight</a></td>
 <td><code>This word is ==highlighted==.</code></td>
 </tr>
 <tr>
-<td><a href="/rules-or-syntaxes/extended-syntax/subscript">Subscript</a></td>
+<td><a href="/subscript-in-markdown">Subscript</a></td>
 <td><code>S~2~O</code></td>
 </tr>
 <tr>
-<td><a href="/rules-or-syntaxes/extended-syntax/superscript">Superscript</a></td>
+<td><a href="/superscript-in-markdown">Superscript</a></td>
 <td><code>z^2^</code></td>
 </tr>
 </table>

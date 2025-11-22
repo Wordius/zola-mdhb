@@ -2,6 +2,7 @@
 title = "Strikethrough in markdown"
 description = "When you need to strike out text, use strikethrough"
 weight = 700
+path = "strikethrough-in-markdown"
 +++
 
 Use two tildes (`~~`) before and after the text:

@@ -30,6 +30,7 @@ To italicise text, add one asterisk or underscore before and after a word or phr
 Which renders as:
 
 *italics*
+
 ### Bold and italic
 
 To emphasise text with bold and italics at the same time, add three asterisks or underscores before and after a word or phrase
@@ -37,7 +38,7 @@ To emphasise text with bold and italics at the same time, add three asterisks or
 ```markdown
 ***bold italic*** or ___bold italic___
 ```
- 
+
 Which renders as:
 
 ***bold italic*** or ___bold italic___
