@@ -2,6 +2,7 @@
 title = "Headings in markdown"
 description = "Headings are designated by simply preceding them with a hash, or number sign"
 weight = 300
+path = "headings-in-markdown"
 +++
 
 To create a heading, add number signs (`#`) in front of a word or phrase. The number of number signs you use should correspond to the heading. For example, to create a heading  three (`<h3>`), use three number signs (e.g. `### Header`).

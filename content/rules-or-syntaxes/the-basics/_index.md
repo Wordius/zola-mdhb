@@ -4,6 +4,7 @@ description = "Relax, you’re not under test conditions…"
 sort_by = "weight"
 weight = 10
 transparent = true
+template = "mdhb-listing.html"
 page_template = "mdhb-single.html"
 +++
 
@@ -11,15 +12,15 @@ A cheat sheet in programming is a document that summarises important information
 
 | **Feature**     | **Syntax**                                           |
 | --------------- | ---------------------------------------------------- |
-| [Headings](/rules-or-syntaxes/the-basics/headings)         | # H1<br>## H2<br>### H3                              |
-| [Bold](/rules-or-syntaxes/the-basics/emphasis)            | `**bold text**`                                      |
-| [Italics](/rules-or-syntaxes/the-basics/emphasis)         | `*italicised text*`                                  |
+| [Headings](/headings-in-markdown)         | # H1<br>## H2<br>### H3                              |
+| [Bold](/emphasis-in-markdown)            | `**bold text**`                                      |
+| [Italics](/emphasis-in-markdown)         | `*italicised text*`                                  |
 | [Blockquotes](/blockquotes-in-markdown)      | `> blockquote`                                       |
-| [Ordered lists](/rules-or-syntaxes/the-basics/lists)    | 1. First item<br>2. Second item<br>3. Third item   ` |
-| [Unordered lists](/rules-or-syntaxes/the-basics/lists)  | - First item<br>- Second item<br>- Third item        |
-| [Code](/rules-or-syntaxes/the-basics/code)            | `` `code` ``                                         |
-| [Horizontal rules](/rules-or-syntaxes/the-basics/horizontal-rules) | `---`                                                |
-| [Links](/rules-or-syntaxes/the-basics/links)            | `[title](https://www.example.com)`                   |
-| [Images](/rules-or-syntaxes/the-basics/images)           | `![alt text](image.jpg)`                             |
+| [Ordered lists](/lists-in-markdown)    | 1. First item<br>2. Second item<br>3. Third item   ` |
+| [Unordered lists](/lists-in-markdown)  | - First item<br>- Second item<br>- Third item        |
+| [Code](/code-in-markdown)            | `` `code` ``                                         |
+| [Horizontal rules](/horizontal-rules-in-markdown) | `---`                                                |
+| [Links](/links-in-markdown)            | `[title](https://www.example.com)`                   |
+| [Images](/images-in-markdown)           | `![alt text](image.jpg)`                             |
 
 Visit the [extended syntax](/rules-or-syntaxes/extended-syntax) page to learn more.

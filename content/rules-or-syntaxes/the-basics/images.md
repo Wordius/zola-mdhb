@@ -2,6 +2,7 @@
 title = "Images in markdown"
 description = "Adding an exclamation mark in front of the link format gets you the code necessary to show an image"
 weight = 1000
+path = "images-in-markdown"
 +++
 
 To include an image, add an exclamation mark (`!`), followed by alt text in brackets and the path or URL to the image in parentheses. You can also add a title in quotation marks after the path or URL.

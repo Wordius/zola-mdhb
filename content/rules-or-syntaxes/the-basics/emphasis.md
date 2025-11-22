@@ -2,6 +2,7 @@
 title = "Emphasis in markdown"
 description = "Emphasis includes bold text, italic text and bold italic text"
 weight = 400
+path = "emphasis-in-markdown"
 +++
 
 You can add emphasis by making text **bold** or *italic*, or ***bold italic***.

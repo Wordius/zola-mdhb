@@ -2,6 +2,7 @@
 title = "Code in markdown"
 description = "Whether your aim is to render a word or phrase in code, or a code block, markdown has you covered"
 weight = 700
+path = "code-in-markdown"
 +++
 
 To denote a word or phrase as code, enclose it in backticks (`` ` ``). An example of how to do this is shown below:

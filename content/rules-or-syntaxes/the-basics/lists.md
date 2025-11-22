@@ -2,6 +2,7 @@
 title = "Lists in markdown"
 description = "Lists come in a number of forms, but in this cheat sheet we are only concerned with ordered and unordered lists"
 weight = 600
+path = "lists-in-markdown"
 +++
 
 You can organise items into ordered and unordered lists.

@@ -1,7 +1,8 @@
 +++
 title = "Links in markdown"
-description = "Thr humble link"
+description = "The humble link"
 weight = 900
+path = "links-in-markdown"
 +++
 
 Links are important elements in Markdown for connecting content. Mastering various link syntaxes makes your documents more connected and practical.
