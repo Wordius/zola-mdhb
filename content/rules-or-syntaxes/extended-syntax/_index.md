@@ -96,5 +96,5 @@ I have written notes explaining some of these items in more detail. These are li
 </tr>
 </table>
 
-Some markdown editors use emojis and other symbols. I don’t use emojis, but you can find out more about them [here](https://gist.github.com/rxaviers/7360908). Wikipedia also has a list of [HTML entities](https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references#List_of_character_entity_references_in_HTML) you can use.
+Some markdown editors use emojis and other symbols. I don’t use emojis, but you can find out more about them [here](https://gist.github.com/rxaviers/7360908). Wikipedia also has a list of [HTML entities](https://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references#List_of_character_entity_references_in_HTML) that are used.
 
