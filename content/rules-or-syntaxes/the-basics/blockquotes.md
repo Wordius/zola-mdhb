@@ -2,6 +2,7 @@
 title = "Blockquotes in markdown"
 description = "Blockquote is the equivalent of a ‘callout’ or ‘pullquote’, as used in magazines and newspapers"
 weight = 500
+path = "blockquotes-in-markdown"
 +++
 
 Blockquotes are more commonly known as ‘pullquotes’ or ‘callouts’ in the world of publishing. 

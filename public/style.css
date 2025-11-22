@@ -407,8 +407,11 @@ article a:hover {
 
 /* Links */
 
-/*a["title"] {
-  font-size: 120%;
+/*a[title]:hover::after {
+  content: attr(title);
+  position: absolute;
+  top: -100%;
+  left: 2rem;
 }*/
 
 /* TERMS */

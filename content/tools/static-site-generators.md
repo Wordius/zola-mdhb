@@ -2,6 +2,7 @@
 title = "Static site generators"
 description = "Below is a list of static site generators I have come across. There are many others out there"
 weight = 200
+path = "static-site-generators"
 +++
 
 Back in the early 2000s, while I was toying with Joomla and setting up sites in WordPress I had no idea this other world existed. But, hidden behind the scenes in plain slight, was the static site generator. Yes, the world of static site generators has been around a while, since the mid 2000s according to some.

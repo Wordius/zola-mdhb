@@ -4,7 +4,6 @@ description = "Relax, you’re not under test conditions…"
 sort_by = "weight"
 weight = 10
 transparent = true
-template = "mdhb-listing.html"
 page_template = "mdhb-single.html"
 +++
 
@@ -15,7 +14,7 @@ A cheat sheet in programming is a document that summarises important information
 | [Headings](/rules-or-syntaxes/the-basics/headings)         | # H1<br>## H2<br>### H3                              |
 | [Bold](/rules-or-syntaxes/the-basics/emphasis)            | `**bold text**`                                      |
 | [Italics](/rules-or-syntaxes/the-basics/emphasis)         | `*italicised text*`                                  |
-| [Blockquotes](/rules-or-syntaxes/the-basics/blockquotes)      | `> blockquote`                                       |
+| [Blockquotes](/blockquotes-in-markdown)      | `> blockquote`                                       |
 | [Ordered lists](/rules-or-syntaxes/the-basics/lists)    | 1. First item<br>2. Second item<br>3. Third item   ` |
 | [Unordered lists](/rules-or-syntaxes/the-basics/lists)  | - First item<br>- Second item<br>- Third item        |
 | [Code](/rules-or-syntaxes/the-basics/code)            | `` `code` ``                                         |

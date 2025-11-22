@@ -2,6 +2,7 @@
 title = "Use cases"
 description = "Markdown has many uses including creating websites, taking notes, producing presentations and writing books"
 weight = 500
+path = "markdown-use-cases" 
 draft = false
 +++
 

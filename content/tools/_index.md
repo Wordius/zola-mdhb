@@ -10,7 +10,7 @@ Below is a list of the types tools you can expect to find for markdown.
 
 In time, these lists may be extended. For instance, ‘editors’ is used as a catchall phrase to describe note-taking apps, markdown editors, outliners, book editors and presentations. Similarly, ‘static site generators’ includes static sites, CMS-based sites and documentation hubs. 
 
-- [Editors](/tools/markdown-editors)
-- [Static site generators](/tools/static-site-generators)
+- [Editors](/markdown-editors)
+- [Static site generators](/static-site-generators)
 
 Check out the lists to find out more.

@@ -2,6 +2,7 @@
 title = "Flavours of markdown"
 description = "There are a great number of variants or ‘flavours’ of markdown out there, but rather than you picking the one you want to use, it invariably picks you"
 weight = 300
+path = "markdown-flavours"
 toc = "true"
 +++  
 

@@ -2,6 +2,7 @@
 title = "Start here"
 description = "How to use markdown in four simple pages – three, if you discount ‘flavours’, which is only added to aid your understanding"
 weight = 100
+path = "how-to-write-in-markdown"
 draft = false
 +++
 
