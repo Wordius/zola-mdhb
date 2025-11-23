@@ -1,6 +1,6 @@
 +++
 title = "Start here"
-description = "How to use markdown in four simple pages – three, if you discount ‘flavours’, which is only added to aid your understanding"
+description = "How to use markdown in three simple pages – two if you discount ‘flavours’, which is only added to aid your understanding"
 weight = 100
 path = "how-to-write-in-markdown"
 draft = false

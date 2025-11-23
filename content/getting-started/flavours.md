@@ -10,7 +10,7 @@ Calling variants ‘flavours’ makes it sound like you have a choice, as in pic
 
 There are far too many flavours, or variants, of markdown to mention here. So I will only mention four: the original spec, Multimarkdown, Commonmark and Github-flavoured markdown.
 
-See [here](https://github.com/commonmark/commonmark-spec/wiki/Markdown-Flavors) if you’re interested in finding out more, but note that many on the list are versions tailored to specific apps or platforms.
+This [GitHub page](https://github.com/commonmark/commonmark-spec/wiki/Markdown-Flavors) has a more complete list if you’re interested in finding out more, but note that many of the versions listed are tailored to specific apps or platforms.
 
 ## Markdown – the original
 
@@ -52,3 +52,5 @@ GFM is also used in Obsidian.
 ## Obsidian
 
 Obsidian supports Commonmark, Github-flavoured markdown and LaTeX, the latter being a typesetting system designed for the production of technical and scientific documentation.
+
+See the [cheat sheet](https://md-handbook.com/rules-or-syntaxes/the-basics/) for more on how to get started with markdown.
