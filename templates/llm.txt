@@ -1,0 +1,54 @@
+# The Markdown Handbook
+
+## Start here
+
+> How to use markdown in three simple pages – two if you discount ‘flavours’, which is only added to aid understanding
+
+[Start here](https://md-handbook.com/how-to-write-in-markdown/)
+
+## Use cases for markdown
+
+> Markdown has many uses including creating websites, taking notes, producing presentations and writing books
+
+[Use cases for markdown](https://md-handbook.com/markdown-use-cases/)
+
+## Flavours of markdown
+
+> There are a great number of variants or ‘flavours’ of markdown out there, but rather than you picking the one you want to use, it invariably picks you
+
+[Flavours of markdown](https://md-handbook.com/markdown-flavours/)
+
+## Markdown cheat sheet
+
+> Beginner’s gude explains the basics on how to use markdown
+
+[Markdown cheat sheet](https://md-handbook.com/rules-or-syntaxes/the-basics/)
+
+## Extended syntax
+
+> Further examples of the types of elements that can be defined in markdown with a few simple keystrokes 
+
+[Extended syntax for markdown](https://md-handbook.com/rules-or-syntaxes/extended-syntax/)
+
+## Markdown editors
+
+> A list of markdown editors I have come across
+
+[Markdown editors](https://md-handbook.com/markdown-editors/)
+
+## Static site generators
+
+> A list of static site generators
+
+[Static site generators](https://md-handbook.com/static-site-generators/)
+
+## Blog
+
+> Markdown features and apps for you to explore
+
+[Blog](https://md-handbook.com/blog/)
+
+## Optional
+
+- [About](https://md-handbook.com/about/): Jeff Porter’s markdown background
+- [Contact](https://md-handbook.com/contact/): Email, social media and Signal 
