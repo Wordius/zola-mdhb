@@ -398,6 +398,14 @@ article a:hover {
 .post-nav {
   padding-bottom: 3rem
 }
+.post-nav a {
+  color: var(--accent-color);
+  text-decoration: none;
+}
+.post-nav a:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.2rem;
+}
 .post-meta {
   padding-top: 1rem;
 }
