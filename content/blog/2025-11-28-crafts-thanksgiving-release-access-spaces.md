@@ -8,7 +8,7 @@ tags = ["markdown", "markdown editors", "AI", "Craft"]
 
 {{ image(path="/img/craft-thanksgiving.webp", caption="Craft’s AI assistant is just one area where users will see improvements") }}
 
-Craft, the notes app with access to tasks, a built-in calendar, whiteboards and daily notes, has released a major update this Thanksgiving. Among the changes are updates to the app’s AI assistant, API and MCP integrations, improvements to whiteboards, a dusting off of the code editor and collections, and an Android beta being made public.
+[Craft](https://www.craft.do), the notes app with access to tasks, a built-in calendar, whiteboards and daily notes, has released a major update this Thanksgiving. Among the changes are updates to the app’s AI assistant, API and MCP integrations, improvements to whiteboards, a dusting off of the code editor and collections, and an Android beta being made public.
 
 Chief among the updates is that Craft’s AI assistant is no longer restricted to single documents; it can now access your entire space. Communicate with all your content, search across folders and draw insights from everything you have written. It is also available anywhere you might need it: documents, collections, calendar, tasks and the code editor.
 
@@ -32,3 +32,5 @@ The code editor now has more character limits, with the introduction of natural 
 Collections now have a cleaner layout and a host of tweaks have made it smoother, faster and more intuitive.
 
 Android users now get a look-in with access to a beta version. In summer 2025, Craft introduced editing capabilities for the mobile web, now they have taken it a step further by making Craft available in the Google Play Store.
+
+Craft is currently available with a 40% discount for Black Friday. See the [website](https://www.craft.do/pricing) for more details.
