@@ -1,11 +1,11 @@
 +++
 title = "Links in markdown"
-description = "The humble link"
+description = "Where would we be without the humble link in markdown?"
 weight = 900
 path = "links-in-markdown"
 +++
 
-Links are important elements in Markdown for connecting content. Mastering various link syntaxes makes your documents more connected and practical.
+Links are important elements in markdown for connecting content. Mastering various link syntaxes makes your documents more connected and practical.
 
 ## Basic link 
 
@@ -18,7 +18,7 @@ Visit [GitHub](https://github.com) to see open source projects.
 
 Which renders as:
 
-This is a link to [Google](https://www.google.com/). Visit [GitHub](https://github.com/) to see open source projects.
+This is a link to [Google](https://www.google.com/).<br>Visit [GitHub](https://github.com/) to see open source projects.
 
 Add a title after the URL, which will appear on hover:
 
@@ -42,11 +42,7 @@ This is another [reference link][link-name].
 [link-name]: https://www.google.com "Google Search"
 ```
 
-Which renders as:
-
-This is a [reference link](https://www.example.com/). This is another [reference link](https://www.google.com/ "Google Search").
-
-The link text itself is used as the label:
+Or the link text itself is used as the label:
 
 ```
 Visit [Google][] to search.
@@ -55,10 +51,6 @@ See projects on [GitHub][].
 [Google]: https://www.google.com
 [GitHub]: https://github.com
 ```
-
-Which renders as:
-
-Visit [Google](https://www.google.com/) to search. See projects on [GitHub](https://github.com/).
 
 ## Autolinks 
 
@@ -71,7 +63,7 @@ Simply type the URL, wrapped in angle brackets:
 
 Which renders as:
 
-[https://www.example.com](https://www.example.com/)[https://github.com/user/repo](https://github.com/user/repo)
+[https://www.example.com](https://www.example.com/)<br>[https://github.com/user/repo](https://github.com/user/repo)
 
 You can also include email addresses as autolinks: 
 
@@ -82,11 +74,11 @@ Support: <support@company.com>
 
 Which renders as:
 
-Contact me: [user@example.com](mailto:user@example.com) Support: [support@company.com](mailto:support@company.com)
+Contact me: [user@example.com](mailto:user@example.com)<br>Support: [support@company.com](mailto:support@company.com)
 
 ## Internal Links 
 
-### Anchor Links 
+### Anchor links 
 
 Link to a heading on the same page:
 
@@ -97,7 +89,7 @@ See [Best Practices](#best-practices)
 
 Which renders as:
 
-Jump to [Basic Link Syntax](https://www.markdownlang.com/basic/links.html#basic-link-syntax) See [Best Practices](https://www.markdownlang.com/basic/links.html#best-practices)
+Jump to [Basic Link Syntax](https://www.markdownlang.com/basic/links.html#basic-link-syntax)<br>See [Best Practices](https://www.markdownlang.com/basic/links.html#best-practices)
 
 ### Relative path links 
 
