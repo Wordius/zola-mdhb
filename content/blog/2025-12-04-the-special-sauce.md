@@ -1,6 +1,6 @@
 +++
 title = "Propietary vs Open Source software – the special sauce"
-description = "As analogies go, they don’t come much better than this"
+description = "As analogies go, they don’t come much better than this one"
 date = 2025-12-08
 [taxonomies]
 tags = ["quotes", "open source", "proprietary software"]
