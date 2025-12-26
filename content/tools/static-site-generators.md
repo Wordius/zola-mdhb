@@ -24,4 +24,4 @@ work out of the box. If you want to extend them, then you may have some learning
 | [Pelican](http://blog.getpelican.com/)             | Python                 | Jinja2            | [Pelican docs](https://docs.getpelican.com/en/latest/)                       |
 | [Zola](https://getzola.org)                        | Rust                   | Tera              | [Zola docs](https://www.getzola.org/documentation/getting-started/overview/) |
 
-Also see the [markdown editors](/tools/markdown-editors) in this section.
+Also see the [markdown editors](/markdown-editors) in this section.
