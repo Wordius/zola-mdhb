@@ -5,7 +5,7 @@ date = 2025-12-28
 [taxonomies]
 tags = ["markdown", "markdown editors", "GitHub", "iOS", "OctoNote"]
 +++
-.
+
 {{ image(path="/img/octonote.webp", caption="The above image shows a note (gist) in OctoNote rendered on Github’s gist platform") }}
  
 OctoNote is a markdown-based note taking app. It connects with GitHub so you have a place to store your gists/notes and share them with everyone.
