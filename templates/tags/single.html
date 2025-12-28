@@ -8,7 +8,7 @@
   {% endblock title %}
   </div>-->
 
-  <h1 class="page-title">{{ term.name | capitalize }}</h1>
+  <h1 class="page-title">{{ term.name }}</h1>
 
   <ul class="postlist">
     {% for page in term.pages | sort(attribute="date") | reverse %}
