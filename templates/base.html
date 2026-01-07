@@ -23,12 +23,15 @@
   <meta name="description" content="{{ config.description }}">
   
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/rss.xml">
-
+  
+  <!-- PRELOAD CSS -->
+  <link rel="preload" href="/style.css" as="style" />
+  <link rel="stylesheet" href="/style.css">
+  
   <!--{% block rss %}    
     <link rel="alternate" type="application/atom+xml" title="RSS" href="{{ get_url(path="atom.xml", trailing_slash=false) }}">
   {% endblock %}-->
 
-  <link rel="stylesheet" href="/style.css">
 
   <link rel="me" href="https://mastodon.social/@md_handbook">
 
